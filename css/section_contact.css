@@ -1,0 +1,9 @@
+
+
+
+#contact {
+    border: 2px solid #fff; /* Borde de 2 píxeles de grosor, sólido y blanco */
+    padding: 20px;          /* Espacio interno de 20 píxeles */
+    margin: 20px 0;         /* Espacio externo arriba y abajo de 20 píxeles */
+    border-radius: 5px;    /* Bordes redondeados con un radio de 5 píxeles */
+}
