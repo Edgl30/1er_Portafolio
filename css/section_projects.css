@@ -31,6 +31,8 @@
 }
 
 .img_proyect{
+    display: flex;
+    justify-content: flex-end; 
     grid-column: 1 / 2; /* Ocupa la primera columna */
     grid-row: 1 / 2;    /* Ocupa la primera fila */
 }

@@ -1,0 +1,291 @@
+.figura1, .figura2, .figura3, .figura4, .figura5, .figura6, .figura7, .figura8, .figura9, .figura10, .figura11,
+.figura43, .figura44, .figura45, .figura46, .figura47, .figura48, .figura49, .figura50, .figura51, .figura52,
+.figura83, .figura84, .figura85 {
+    position: absolute;
+    /* Asegurarse de que las figuras se adapten proporcionalmente */
+    width: 10vw; /* Ajusta el ancho en relación con el tamaño de la ventana */
+    height: 10vh; /* Ajusta la altura en relación con el tamaño de la ventana */
+}
+
+/* Ajustes de tamaño */
+.figura1, .figura3{
+    top: 0%;
+}
+.figura5, .figura6 { height: 23.6%; }
+.figura47, .figura48 { height: 20%; }
+.figura8, .figura9, .figura10, .figura11, .figura45, .figura46, .figura49, .figura50, .figura51, .figura52 { height: 8%; }
+.figura43, .figura44 { height: 15%; }
+.figura1, .figura2, .figura3, .figura4, .figura47, .figura48 { width: 20%; }
+.figura5, .figura6 { width: 22.6%; }
+.figura7, .figura8, .figura9, .figura10, .figura11, .figura43, .figura44, .figura45, .figura46, .figura49, .figura50, .figura51, .figura52 { width: 5%; }
+.figura1, .figura3 { height: 90%; }
+.figura2, .figura4 { height: 45%; }
+
+/* Posición */
+.figura8, .figura9 { left: 6%; }
+.figura10, .figura11 { left: 19%; }
+.figura45, .figura46 { left: 43%; }
+.figura49, .figura51 { left: 26%; }
+.figura2, .figura4 { top: 50%; }
+.figura7, .figura49 { top: 25%; }
+.figura9, .figura10 { top: 43%; }
+
+/* Colores de fondo */
+.figura1, .figura2 { background-color: #02070f; }
+.figura3, .figura4 { background-color: #000205; }
+.figura5, .figura6 { background-color: #030914; }
+.figura47, .figura48 { background-color: #040c19; }
+.figura7, .figura8, .figura9, .figura10, .figura11, .figura43, .figura44, .figura45, .figura46 { background-color: #050e1e; }
+.figura49, .figura50, .figura51, .figura52 { background-color: #01040a; }
+
+/* Z-index */
+.figura1, .figura3 { z-index: 2; }
+.figura2, .figura4 { z-index: 3; }
+.figura5, .figura6, .figura7, .figura8, .figura9, .figura10, .figura11, .figura43, .figura44, .figura45, .figura46 { z-index: 4; }
+.figura47, .figura48, .figura49, .figura50, .figura51, .figura52 { z-index: 5; }
+
+/* Bordes */
+.figura3, .figura4 { border-right: 0.5px solid #ea00d9; }
+.figura5, .figura6 { border-left: 0.5px solid #ea00d9; }
+.figura7, .figura8, .figura9, .figura10, .figura11, .figura43, .figura44, .figura45, .figura46 { border-right: 0.2px solid #0abdc6; }
+.figura49, .figura50, .figura51, .figura52 { border-right: 0.2px solid #00b26f; }
+
+/* Clip-paths */
+.figura8, .figura9, .figura10, .figura11, .figura45, .figura46 { clip-path: polygon(0 0, 100% 43%, 100% 100%, 0 57%); }
+.figura43, .figura44 { clip-path: polygon(0 0, 100% 23%, 100% 100%, 0 77%); }
+.figura1 { left: 5%; clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%); }
+.figura2 { left: 30%; clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%); }
+.figura3 { left: 25%; clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%); }
+.figura4 { left: 50%; clip-path: polygon(0 0, 100% 30%, 100% 70%, 0 100%); }
+.figura49, .figura50, .figura51, .figura52 { clip-path: polygon(0 43%, 100% 0, 100% 57%, 0 100%); }
+
+/* Transformaciones */
+.figura5, .figura47, .figura48, .figura6 { transform: rotate(116deg) skewX(-8deg) skewY(28deg); }
+.figura7 { height: 40%; left: 12.5%; clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 91%); }
+.figura50 { left: 39%; top: 16%; clip-path: polygon(0 43%, 100% 0, 100% 57%, 0 100%); }
+.figura51 { top: 33%; clip-path: polygon(0 43%, 100% 0, 100% 57%, 0 100%); }
+.figura52 { left: 63%; top: 67%; }
+
+/* Posicionamientos específicos */
+.figura5 { top: 1.7%; left: 13.6%; }
+.figura47 { top: 3.5%; left: 14.9%; }
+.figura48 { top: 53.5%; left: 39.9%; }
+.figura6 { top: 51.7%; left: 38.6%; }
+.figura8 { top: 35%; }
+.figura11 { top: 51%; }
+.figura43 { left: 17.5%; top: 73%; }
+.figura44 { left: 36.5%; top: 74%; }
+.figura45 { top: 78%; }
+.figura46 { top: 84%; }
+.figura49 { top: 25%; }
+
+/* Figuras 83 y 84 */
+.figura83 {
+    height: 48.6%;
+    width: 48.6%;
+    top: 55.7%;
+    left: 18.6%;
+    background-color: #00110a;
+    z-index: 1;
+    transform: rotate(97deg) skewX(-25deg) skewY(50deg);
+}
+.figura84 {
+    height: 50.6%;
+    width: 50.6%;
+    top: 54.7%;
+    left: 17.6%;
+    background-color: #84dee2;
+    z-index: 0;
+    transform: rotate(97deg) skewX(-25deg) skewY(50deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tercer edificio*/
+
+.figura23,.figura24,.figura25,.figura26, .figura27,.figura28,.figura29,.figura30,.figura31,.figura32,.figura63,.figura64,.figura65,.figura66,.figura67,.figura68,.figura69,.figura70,.figura71{
+    position: absolute;
+  }
+  .figura23{
+    height: 15%;
+    width: 34%;
+    top: 0%;
+    left: 33%;
+    border-radius: 50%;
+    background-color: #050e1e;
+    z-index: 5;
+  }
+  .figura24{
+    height: 22.5%;
+    width: 49%;
+    top: 30%;
+    left: 25.5%;
+    border-radius: 50%;
+    background-color: #030914;
+    z-index: 4;
+  }
+  .figura25{
+    height: 30%;
+    width: 64%;
+    top: 70%;
+    left: 18%;
+    border-radius: 50%;
+    background-color: #01040a;
+    z-index: 3;
+  }
+  .figura26{
+    height: 34%;
+    width: 30%;
+    top: 7%;
+    left: 35%;
+    background-color: #040c19;
+    border-right: 0.5px solid #ea00d9;
+    z-index: 4;
+  }
+  .figura27{
+    height: 43.5%;
+    width: 45%;
+    top: 41%;
+    left: 27.5%;
+    background-color: #02070f;
+    border-right: 0.5px solid #ea00d9;
+    z-index: 3;
+  }
+  .figura28{
+    height: 30%;
+    width: 60%;
+    top: 84%;
+    left: 20%;
+    background-color: #000205;
+    border-right: 0.5px solid #ea00d9;
+    z-index: 2;
+  }
+  .figura29{
+    height: 15%;
+    width: 30%;
+    top: 33%;
+    left: 35%;
+    border-radius: 50%;
+    background-color: #040c19;
+    z-index: 5;
+  }
+  .figura30{
+    height: 22.5%;
+    width: 45%;
+    top: 72%;
+    left: 27.5%;
+    border-radius: 50%;
+    background-color: #02070f;
+    z-index: 4;
+  }
+  .figura31{
+    height: 30%;
+    width: 60%;
+    top: 98%;
+    left: 20%;
+    border-radius: 50%;
+    background-color: #000205;
+    z-index: 2
+  }
+  .figura32{
+    height: 23%;
+    width: 4%;
+    top: 99%;
+    left: 68%;
+    clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+    background-color: #02070f;
+    z-index: 3;
+  }
+  .figura63{
+    height: 23%;
+    width: 4%;
+    top: 99%;
+    left: 28%;
+    clip-path: polygon(0 0%, 100% 7%, 100% 100%, 0 93%);
+    background-color: #02070f;
+    z-index: 3;
+  }
+  .figura64{
+    height: 23%;
+    width: 4%;
+    top: 101%;
+    left: 33%;
+    clip-path: polygon(0 0%, 100% 5%, 100% 100%, 0 95%);
+    background-color: #02070f;
+    z-index: 3;
+  }
+  
+  .figura32,.figura63,.figura64,.figura65,.figura66,.figura67,.figura68,.figura69{
+    border-right: 0.2px solid #0abdc6;
+  }
+  .figura65{
+    height: 38%;
+    width: 4%;
+    top: 54%;
+    left: 41%;
+    clip-path: polygon(0 0%, 100% 2%, 100% 100%, 0 98%);
+    background-color: #030914;
+    z-index: 5;
+  }
+  .figura66{
+    height: 38%;
+    width: 4%;
+    top: 54%;
+    left: 56%;
+    clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
+    background-color: #030914;
+    z-index: 5;
+  }
+  .figura67{
+    height: 12%;
+    width: 4%;
+    top: 55%;
+    left: 49%;
+    background-color: #030914;
+    z-index: 5;
+  }
+  .figura68{
+    height: 12%;
+    width: 4%;
+    top: 80%;
+    left: 49%;
+    background-color: #030914;
+    z-index: 5;
+  }
+  .figura69{
+    height: 17%;
+    width: 8%;
+    border-end-end-radius: 10%;
+    top: 29%;
+    left: 47%;
+    background-color: #050e1e;
+    z-index: 5;
+  }
+  .figura70{
+    height: 62.6%;
+    width: 61.6%;
+    top: 82.7%;
+    left: 20.6%;
+    background-color: #00110a/*#030914*/;
+    z-index: 1;
+    transform: rotate(97deg) skewX(-25deg) skewY(50deg);
+  }
+  .figura71{
+    height: 65.6%;
+    width: 65.6%;
+    top: 81.7%;
+    left: 18.6%;
+    background-color: #84dee2/*#030914*/;
+    z-index: 0;
+    transform: rotate(97deg) skewX(-25deg) skewY(50deg);
+  }
+  

@@ -16,6 +16,7 @@
     background-color: white;
     width: 20px;
     height: 20px;
+    border-radius: 10%;
 }
 .contact_img, .contact_info{
     display: flex;
@@ -30,3 +31,18 @@
     grid-column: 2 / 3; /* Ocupa la primera columna */
     grid-row: 1 / 2;    /* Ocupa la primera fila */
 }
+#contact ul{
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#contact li{
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
